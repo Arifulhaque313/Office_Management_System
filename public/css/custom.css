@@ -1,0 +1,263 @@
+.w-60 {
+    width: 60%;
+}
+form label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.9;
+}
+.custom-list-item-success {
+    border-left: 5px solid #9cce86 !important;
+    background-color: #9cce861f;
+}
+.custom-list-item-danger {
+    border-left: 5px solid #db320b !important;
+    background-color: #db320b0d;
+}
+.id-cart {
+    width: 11cm !important;
+    height: 17.4cm;
+    background-position: center !important;
+    background-size: cover !important;
+    position: relative;
+}
+.name {
+    position: absolute;
+    top: 348px;
+    text-align: center;
+    width: 100%;
+    font-size: 28px;
+    font-family: poppins;
+    color: #0a58a8;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.designation {
+    position: absolute;
+    top: 392px;
+    width: 100%;
+    text-align: center;
+    /* font-family: "Century Gothic"; */
+    font-family: "poppins";
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #0e57a8;
+}
+.label {
+    width: 118px;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+.id-value {
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+.colon {
+    padding-right: 3px;
+}
+.info-group {
+    position: absolute;
+    top: 224px;
+}
+.info-group {
+    position: absolute;
+    top: 440px;
+    color: #1d275b;
+    width: auto;
+}
+.ui-datepicker-calendar {
+    display: none;
+}
+.id-image {
+    width: auto;
+    transform: rotate(-46deg);
+}
+.id-photo-container {
+    width: 168px;
+    position: absolute;
+    top: 124px;
+    border: 8px solid #fff;
+    transform: rotate(45deg);
+    height: 168px;
+    left: 132px;
+    overflow: hidden;
+}
+.id-image {
+    height: 210px !important;
+    width: 210px !important;
+    max-width: unset;
+    position: absolute;
+    top: -36px;
+    left: -36px;
+}
+.office {
+    position: absolute;
+    top: 48px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "Roboto";
+    /* font-family: "Fira Sans"; */
+    color: #1d275b;
+    font-weight: 500;
+}
+.address,
+.address-line-2 {
+    position: absolute;
+    top: 70px;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    font-family: "Roboto";
+    color: #1d275b;
+    font-weight: 500;
+}
+.address-line-2 {
+    top: 94px;
+}
+.joining-info {
+    position: absolute;
+    top: 158px;
+    font-size: 22px;
+    font-family: "Century Gothic";
+    color: #1d275b;
+}
+.barcode-container {
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+    padding: 0px 20px;
+}
+.barcode-container img {
+    height: 50px;
+    width: 100%;
+}
+.qr-cond {
+    position: absolute;
+    top: 272px;
+    left: 161px;
+}
+.qr-cond img {
+    width: 90px;
+}
+.relative.inline-flex.items-center.px-2.py-2.text-sm.font-medium.text-gray-500.bg-white.border.border-gray-300.rounded-l-md.leading-5.hover\:text-gray-400.focus\:z-10.focus\:outline-none.focus\:ring.ring-gray-300.focus\:border-blue-300.active\:bg-gray-100.active\:text-gray-500.transition.ease-in-out.duration-150 {
+    display: block;
+    width: 40px;
+    float: left;
+}
+.relative.inline-flex.items-center.px-2.py-2.-ml-px.text-sm.font-medium.text-gray-500.bg-white.border.border-gray-300.rounded-r-md.leading-5.hover\:text-gray-400.focus\:z-10.focus\:outline-none.focus\:ring.ring-gray-300.focus\:border-blue-300.active\:bg-gray-100.active\:text-gray-500.transition.ease-in-out.duration-150 {
+    display: block;
+    float: right;
+    width: 39px;
+}
+
+/* multi level drop down  custom edit start  */
+@media all and (min-width: 992px) {
+    .dropdown-menu li {
+        position: relative;
+    }
+
+    .dropdown-menu .submenu {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: -7px;
+    }
+
+    .dropdown-menu .submenu-left {
+        right: 100%;
+        left: auto;
+    }
+
+    .dropdown-menu > li:hover {
+        background-color: #f1f1f1;
+    }
+
+    .dropdown-menu > li:hover > .submenu {
+        display: block;
+    }
+}
+
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+    .dropdown-menu .dropdown-menu {
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+        margin-bottom: 0.5rem;
+    }
+}
+/* multi level drop down  custom edit end  */
+
+/* letter  template desing start */
+.letter_container {
+    font-family: Century Gothic;
+    color: black;
+    background-color: white;
+    height: 1056px;
+    width: 816px;
+    margin: auto;
+    padding: 260px 40px;
+}
+p {
+    margin-bottom: 0px;
+    line-height: 1.5;
+}
+.letter_header p {
+    font-size: 17px;
+}
+.letter_salutation {
+    margin-top: 96px;
+}
+.letter_body {
+    margin-top: 40px;
+    text-align: justify;
+}
+.closing_part {
+    margin-top: 200px;
+}
+.letter_salutation p {
+    font-size: 15px;
+}
+.letter_body p {
+    font-size: 16px;
+}
+.closing_part p {
+    font-size: 15px;
+}
+
+.closing_part2 {
+    margin-top: 150px;
+}
+
+/* intern_letter_css   */
+.intern_letter_container {
+    font-family: Century Gothic;
+    color: black;
+    background-color: white;
+    height: 1123px;
+    width: 787.2px;
+    margin: auto;
+    padding: 165px 40px;
+}
+.intern_letter_salutation {
+    margin-top: 110px;
+}
+
+.employee_button {
+    float: right;
+    width: 100px;
+    margin-right: 23px;
+}
+.add-btn {
+    float: right;
+    width: 100px;
+    margin-right: 23px;
+}

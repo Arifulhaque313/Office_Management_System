@@ -1,0 +1,158 @@
+.w-60 {
+    width: 60%;
+}
+form label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.9;
+}
+.custom-list-item-success {
+    border-left: 5px solid #9cce86 !important;
+    background-color: #9cce861f;
+}
+.custom-list-item-danger {
+    border-left: 5px solid #db320b !important;
+    background-color: #db320b0d;
+}
+.id-cart {
+    width: 5.5cm !important;
+    height: 8.7cm;
+    background-position: center !important;
+    background-size: cover !important;
+    position: relative;
+}
+.name {
+    position: absolute;
+    top: 174px;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    font-family: poppins;
+    color: #0a58a8;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.designation {
+    position: absolute;
+    top: 196px;
+    width: 100%;
+    text-align: center;
+    /* font-family: "Century Gothic"; */
+    font-family: "poppins";
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #0e57a8;
+}
+.label {
+    width: 59px;
+    font-size: 8px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+.id-value {
+    font-size: 8px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+.colon {
+    padding-right: 3px;
+}
+.info-group {
+    position: absolute;
+    top: 224px;
+}
+.info-group {
+    position: absolute;
+    top: 220px;
+    color: #1d275b;
+    width: auto;
+}
+.ui-datepicker-calendar {
+    display: none;
+}
+.id-image {
+    width: auto;
+    transform: rotate(-46deg);
+}
+.id-photo-container {
+    width: 82px;
+    position: absolute;
+    top: 62px;
+    border: 8px solid #fff;
+    transform: rotate(45deg);
+    height: 82px;
+    left: 66px;
+    overflow: hidden;
+}
+.id-image {
+    height: 100px !important;
+    width: 100px !important;
+    max-width: unset;
+    position: absolute;
+    top: -19px;
+    left: -17px;
+}
+.office {
+    position: absolute;
+    top: 24px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-family: "Roboto";
+    /* font-family: "Fira Sans"; */
+    color: #1d275b;
+    font-weight: 500;
+}
+.address,
+.address-line-2 {
+    position: absolute;
+    top: 35px;
+    text-align: center;
+    width: 100%;
+    font-size: 8px;
+    font-family: "Roboto";
+    color: #1d275b;
+    font-weight: 500;
+}
+.address-line-2 {
+    top: 47px;
+}
+.joining-info {
+    position: absolute;
+    top: 78px;
+    font-size: 11px;
+    font-family: "Century Gothic";
+    color: #1d275b;
+}
+.barcode-container {
+    position: absolute;
+    width: 100%;
+    bottom: 26px;
+    padding: 0px 20px;
+}
+.barcode-container img {
+    height: 25px;
+    width: 100%;
+}
+.qr-cond {
+    position: absolute;
+    top: 136px;
+    left: 73px;
+}
+.qr-cond img {
+    width: 45px;
+}
+.relative.inline-flex.items-center.px-2.py-2.text-sm.font-medium.text-gray-500.bg-white.border.border-gray-300.rounded-l-md.leading-5.hover\:text-gray-400.focus\:z-10.focus\:outline-none.focus\:ring.ring-gray-300.focus\:border-blue-300.active\:bg-gray-100.active\:text-gray-500.transition.ease-in-out.duration-150 {
+    display: block;
+    width: 40px;
+    float: left;
+}
+.relative.inline-flex.items-center.px-2.py-2.-ml-px.text-sm.font-medium.text-gray-500.bg-white.border.border-gray-300.rounded-r-md.leading-5.hover\:text-gray-400.focus\:z-10.focus\:outline-none.focus\:ring.ring-gray-300.focus\:border-blue-300.active\:bg-gray-100.active\:text-gray-500.transition.ease-in-out.duration-150 {
+    display: block;
+    float: right;
+    width: 39px;
+}
